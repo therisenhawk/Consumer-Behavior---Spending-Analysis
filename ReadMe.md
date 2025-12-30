@@ -167,7 +167,7 @@ Key findings:
 
 - Low spenders show the greatest variability in category usage
 
-- High spenders are consistently diversified, using nearly all categories over time
+- High and Mid spenders are consistently diversified, using nearly all categories over time
 
 <img width="843" height="547" alt="image" src="https://github.com/user-attachments/assets/9796349d-6758-4727-ae62-8b97fe50e8ee" />
 
