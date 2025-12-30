@@ -61,6 +61,7 @@ df["trans_date_trans_time"] = pd.to_datetime(df["trans_date_trans_time"])
 
 This step is neccesary for consistency and reliability before performing any analysis.
 
+---
 
 ## 🔍 Notebook 2: Exploratory Data Analysis (EDA)
 
@@ -72,8 +73,7 @@ The EDA notebook explores spending behavior at multiple levels.
 
 - Average transaction size per category
 
-📌 Insert figure: Horizontal bar chart of total spending by category
-
+---
 
 ### **Time Based Analysis**
 
@@ -81,8 +81,8 @@ The EDA notebook explores spending behavior at multiple levels.
 
 - Transaction volume over time
 
-📌 Insert figure: Monthly spending trend line chart
 
+---
 
 ### **Transaction-Level Analysis**
 
@@ -98,8 +98,10 @@ sns.histplot(df[df["amt"] <= cutoff], x="amt", bins=50)
 ```
 
 
-📌 Insert figure: Histogram of transaction amounts
+<img width="879" height="550" alt="image" src="https://github.com/user-attachments/assets/0dac88f3-895a-46aa-866d-c532eb04dbb5" />
 
+
+---
 
 ### **User-Level Analysis**
 
@@ -111,9 +113,16 @@ sns.histplot(df[df["amt"] <= cutoff], x="amt", bins=50)
 
 This notebook establishes the patterns that inform deeper behavioral analysis.
 
+<img width="984" height="1984" alt="image" src="https://github.com/user-attachments/assets/693ff756-5f53-45a9-a879-f44dac89955d" />
+
+
+---
+
 ## 🧠 Notebook 3: Behavioral Insights
 
 The final notebook shifts the attention from what is happening to why it may be happening by analyzing behavior at the customer segment level.
+
+---
 
 ### **Spender Segmentation**
 
@@ -125,22 +134,30 @@ Customers are grouped based on total spending:
 
 - High Spenders (Top 10%)
 
+---
+
 ## Key Behavioral Analysis
 ### **🔹 Spending Intensity vs Frequency**
 
 A scatter plot highlights the relationship between:
 
-Number of transactions
+- Number of transactions
 
 - Total spending per customer
 
-📌 Insert figure: Scatter plot of total spend vs number of transactions
+<img width="1990" height="1790" alt="image" src="https://github.com/user-attachments/assets/8332b3e4-98e4-4ed2-a0bc-85598af74f28" />
+
+
+---
 
 ### **🔹 Spending Volatility by Segment**
 
 - Boxplots compare how volatile spending is across spender groups.
 
-📌 Insert figure: Boxplot of spending volatility by spender group
+<img width="843" height="547" alt="image" src="https://github.com/user-attachments/assets/f08c083b-0060-49a2-a4d4-6cdde46dd92c" />
+
+
+---
 
 ### **🔹 Category Diversity Across Segments**
 
@@ -152,7 +169,10 @@ Key findings:
 
 - High spenders are consistently diversified, using nearly all categories over time
 
-📌 Insert figure: Category diversity boxplot
+<img width="843" height="547" alt="image" src="https://github.com/user-attachments/assets/9796349d-6758-4727-ae62-8b97fe50e8ee" />
+
+
+---
 
 
 ### **🔹 Contribution to Total Spending**
@@ -167,7 +187,11 @@ spend_by_group["spending_pct"] = (
 
 ```
 
-📌 Insert figure: Bar chart of spending share by spender group
+<img width="1461" height="855" alt="image" src="https://github.com/user-attachments/assets/8c940610-eb00-4d73-800f-c1f632c3560b" />
+
+
+
+---
 
 
 ## 📈 Key Insights
