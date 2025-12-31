@@ -36,13 +36,13 @@ The project is placed across three Jupyter notebooks, each building on the previ
 
 The first notebook focuses on preparing the dataset for analysis by:
 
-Renaming columns for clarity
+- Renaming columns for clarity
 
-Removing unnecessary index columns
+- Removing unnecessary index columns
 
-Handling missing values
+- Handling missing values
 
-Converting date columns to proper datetime format
+- Converting date columns to proper datetime format
 
 ``` python
 
