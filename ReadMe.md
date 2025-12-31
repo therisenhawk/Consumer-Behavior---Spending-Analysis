@@ -1,8 +1,8 @@
-# 📊 Consumer Behavior & Spending Analysis
+# Consumer Behavior & Spending Analysis
 
-## 📌 Project Overview
+## Project Overview
 
-In this project, I analyzed real-world credit card transaction data to understand **how consumers spend**, **how spending behavior differs across users**, and **which patterns emerge when customers are grouped by spending intensity**.
+In this project, I analyzed real world credit card transaction data to understand how consumers spend, how spending behavior differs across users, and which patterns emerge when customers are grouped by spending intensity.
 
 Rather than focusing solely on descriptive statistics, the analysis progresses from data preparation to exploratory analysis and finally to behavioral insights that highlight meaningful differences between low, mid, and high spending customers.
 
@@ -10,7 +10,7 @@ The project is placed across three Jupyter notebooks, each building on the previ
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source:** Kaggle — *Credit Card Transactions Dataset*
 - **Observations:** ~1.3 million transactions
@@ -23,7 +23,7 @@ The project is placed across three Jupyter notebooks, each building on the previ
 
 ---
 
-## 🛠️ Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python  
 - Pandas (data manipulation)  
@@ -32,7 +32,7 @@ The project is placed across three Jupyter notebooks, each building on the previ
 
 ---
 
-## 🧹 Notebook 1: Data Cleaning & Preparation
+## Notebook 1: Data Cleaning & Preparation
 
 The first notebook focuses on preparing the dataset for analysis by:
 
@@ -63,7 +63,7 @@ This step is neccesary for consistency and reliability before performing any ana
 
 ---
 
-## 🔍 Notebook 2: Exploratory Data Analysis (EDA)
+## Notebook 2: Exploratory Data Analysis (EDA)
 
 The EDA notebook explores spending behavior at multiple levels.
 
@@ -118,7 +118,7 @@ This notebook establishes the patterns that inform deeper behavioral analysis.
 
 ---
 
-## 🧠 Notebook 3: Behavioral Insights
+## Notebook 3: Behavioral Insights
 
 The final notebook shifts the attention from what is happening to why it may be happening by analyzing behavior at the customer segment level.
 
@@ -137,7 +137,7 @@ Customers are grouped based on total spending:
 ---
 
 ## Key Behavioral Analysis
-### **🔹 Spending Intensity vs Frequency**
+### **Spending Intensity vs Frequency**
 
 A scatter plot highlights the relationship between:
 
@@ -150,7 +150,7 @@ A scatter plot highlights the relationship between:
 
 ---
 
-### **🔹 Spending Volatility by Segment**
+### **Spending Volatility by Segment**
 
 - Boxplots compare how volatile spending is across spender groups.
 
@@ -159,7 +159,7 @@ A scatter plot highlights the relationship between:
 
 ---
 
-### **🔹 Category Diversity Across Segments**
+### **Category Diversity Across Segments**
 
 This analysis examines how broadly customers spend across categories.
 
@@ -175,7 +175,7 @@ Key findings:
 ---
 
 
-### **🔹 Contribution to Total Spending**
+### **Contribution to Total Spending**
 
 Each spender group’s share of overall spending is calculated and visualized.
 
@@ -194,7 +194,7 @@ spend_by_group["spending_pct"] = (
 ---
 
 
-## 📈 Key Insights
+## Key Insights
 
 - A relatively small group of mid spenders contributes a disproportionately large share of total spending
 
