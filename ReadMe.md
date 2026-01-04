@@ -12,7 +12,7 @@ The project is placed across three Jupyter notebooks, each building on the previ
 
 ## Dataset
 
-- **Source:** Kaggle — *Credit Card Transactions Dataset*
+- **Source:** Kaggle — Credit Card Transactions Dataset
 - **Observations:** ~1.3 million transactions
 - **Key Fields:**
   - Transaction amount  
